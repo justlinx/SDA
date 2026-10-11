@@ -7,7 +7,7 @@ int main() {
         printf("Enter a number in range [0, 8] U [16, +inf) or (-inf, -1): ");
         
         if (scanf("%lf", &x) != 1) {
-            printf("Invalid input, try again\n");
+            printf("\n");
             while (getchar() != '\n'); 
             continue;
         }
